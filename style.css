@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+
+ .outer-boundary {
+        background-color: white;
+        margin: 0px;
+}
+
+ .main-content {
+        background-color: orange;
+        padding: 50px;
+}
+
+input {
+    height: 50px;
+    width: 50%;
+}
+
+
+#number {
+    float: left; 
+} 
+
+#convert {
+    float: right; 
+} 
