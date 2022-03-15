@@ -2,27 +2,52 @@
     box-sizing: border-box;
 }
 
-
  .outer-boundary {
         background-color: white;
         margin: 0px;
 }
 
+h2 {
+    text-align: center;
+}
+
  .main-content {
         background-color: orange;
         padding: 50px;
+        height: 700px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 20px;
 }
 
 input {
-    height: 50px;
-    width: 50%;
+    height: 75px;
+    width: 75%;
 }
 
 
-#number {
-    float: left; 
+input #number {
+    grid-area: 1/1/2/2;
+}
+
+input #convert {
+   grid-area: 1/2/2/3;
 } 
 
-#convert {
-    float: right; 
-} 
+.flexbox {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    text-align: center;
+}
+
+button {
+    position: static;
+    margin: auto;
+    padding: 10px;
+}
