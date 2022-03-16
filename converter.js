@@ -12,14 +12,17 @@ let obj = {
 
            
 function convert() {
-        if(inputOne.value == 8) {
-            outputOne.value = 'VIII';
-        }
-
         for(const key in obj) {
-            if(inputOne.value >= key) {
+            if(inputOne.value == key) {
                 outputOne.value = obj[key];
             }
+            
+            if(inputOne.value != key && inputOne.value != 50 && inputOne.value % 10 == 0) {
+                    outputOne.value = 'X';
+                for(let i=1; i < (inputOne.value / 10); i++) {
+                    outputOne.value += 'X';
+                }
+            } 
         }
 } 
 
