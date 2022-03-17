@@ -9,10 +9,12 @@
 
 h2 {
     text-align: center;
+    font-family: 'Trebuchet MS', 'sans-serif';
+    font-size: 46px;
 }
 
  .main-content {
-        background-color: orange;
+        background-color: lightsalmon;
         padding: 50px;
         height: 700px;
 }
@@ -29,6 +31,7 @@ input {
     border-radius: 10px;
     font-size: 20px;
     color: black;
+    border-color: lightsalmon;
 }
 
 
@@ -40,6 +43,15 @@ input #convert {
    grid-area: 1/2/2/3;
 } 
 
+input:focus {
+    background-color: azure;
+}
+
+input:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
 .flexbox {
     display: flex;
     flex-direction: column;
@@ -47,10 +59,18 @@ input #convert {
 
 h3 {
     text-align: center;
+    font-family: 'Trebuchet MS', 'sans-serif';
+    font-size: 24px;
 }
 
 button {
     position: static;
     margin: auto;
-    padding: 10px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
 }

@@ -82,7 +82,149 @@ function convert() {
                         outputOne.value = 'XCV';
                     }
                 }
+                else {
+                    if(inputOne.value > 1 && inputOne.value < 4) {
+                        outputOne.value = 'I';
+                        let nums = inputOne.value - 1;
+                        for(let i=0; i < nums; i++) {
+                            outputOne.value += 'I';
+                        }
+                    }
+                    if(inputOne.value > 5 && inputOne.value < 9) {
+                        outputOne.value = 'V';
+                        let nums = inputOne.value - 5;
+                        for(let i=0; i < nums; i++) {
+                            outputOne.value += 'I';
+                        }
+                    }
+                    if(inputOne.value > 10 && inputOne.value < 14) {
+                        outputOne.value = 'X';
+                        let nums = inputOne.value - 10;
+                        for(let i=0; i < nums; i++) {
+                            outputOne.value += 'I';
+                        }
+                    }
+                    if(inputOne.value > 15 && inputOne.value < 19) {
+                        outputOne.value = 'XV';
+                        let nums = inputOne.value - 15;
+                        for(let i=0; i < nums; i++) {
+                            outputOne.value += 'I';
+                        }
+                    }
+                    if(inputOne.value > 20 && inputOne.value < 24) {
+                        outputOne.value = 'XX';
+                        let nums = inputOne.value - 20;
+                        for(let i=0; i < nums; i++) {
+                            outputOne.value += 'I';
+                        }
+                    }
+                    if(inputOne.value > 25 && inputOne.value < 29) {
+                        outputOne.value = 'XXV';
+                        let nums = inputOne.value - 25;
+                        for(let i=0; i < nums; i++) {
+                            outputOne.value += 'I';
+                        }
+                    }
+                    if(inputOne.value > 30 && inputOne.value < 34) {
+                        outputOne.value = 'XXX';
+                        let nums = inputOne.value - 30;
+                        for(let i=0; i < nums; i++) {
+                            outputOne.value += 'I';
+                        }
+                    }
+                    if(inputOne.value > 35 && inputOne.value < 39) {
+                        outputOne.value = 'XXXV';
+                        let nums = inputOne.value - 35;
+                        for(let i=0; i < nums; i++) {
+                            outputOne.value += 'I';
+                        }
+                    }
+                    if(inputOne.value > 40 && inputOne.value < 44) {
+                        outputOne.value = 'XL';
+                        let nums = inputOne.value - 40;
+                        for(let i=0; i < nums; i++) {
+                            outputOne.value += 'I';
+                        }
+                    }
+                    if(inputOne.value > 45 && inputOne.value < 49) {
+                        outputOne.value = 'XLV';
+                        let nums = inputOne.value - 45;
+                        for(let i=0; i < nums; i++) {
+                            outputOne.value += 'I';
+                        }
+                    }
+                    if(inputOne.value > 50 && inputOne.value < 54) {
+                        outputOne.value = 'L';
+                        let nums = inputOne.value - 50;
+                        for(let i=0; i < nums; i++) {
+                            outputOne.value += 'I';
+                        }
+                    }
+                    if(inputOne.value > 55 && inputOne.value < 59) {
+                        outputOne.value = 'LV';
+                        let nums = inputOne.value - 55;
+                        for(let i=0; i < nums; i++) {
+                            outputOne.value += 'I';
+                        }
+                    }
+                    if(inputOne.value > 60 && inputOne.value < 64) {
+                        outputOne.value = 'LX';
+                        let nums = inputOne.value - 60;
+                        for(let i=0; i < nums; i++) {
+                            outputOne.value += 'I';
+                        }
+                    }
+                    if(inputOne.value > 65 && inputOne.value < 69) {
+                        outputOne.value = 'LXV';
+                        let nums = inputOne.value - 65;
+                        for(let i=0; i < nums; i++) {
+                            outputOne.value += 'I';
+                        }
+                    }
+                    if(inputOne.value > 70 && inputOne.value < 74) {
+                        outputOne.value = 'LXX';
+                        let nums = inputOne.value - 70;
+                        for(let i=0; i < nums; i++) {
+                            outputOne.value += 'I';
+                        }
+                    }
+                    if(inputOne.value > 75 && inputOne.value < 79) {
+                        outputOne.value = 'LXXV';
+                        let nums = inputOne.value - 75;
+                        for(let i=0; i < nums; i++) {
+                            outputOne.value += 'I';
+                        }
+                    }
+                    if(inputOne.value > 80 && inputOne.value < 84) {
+                        outputOne.value = 'LXXX';
+                        let nums = inputOne.value - 80;
+                        for(let i=0; i < nums; i++) {
+                            outputOne.value += 'I';
+                        }
+                    }
+                    if(inputOne.value > 85 && inputOne.value < 89) {
+                        outputOne.value = 'LXXXV';
+                        let nums = inputOne.value - 85;
+                        for(let i=0; i < nums; i++) {
+                            outputOne.value += 'I';
+                        }
+                    }
+                    if(inputOne.value > 90 && inputOne.value < 94) {
+                        outputOne.value = 'XC';
+                        let nums = inputOne.value - 90;
+                        for(let i=0; i < nums; i++) {
+                            outputOne.value += 'I';
+                        }
+                    }
+                    if(inputOne.value > 95 && inputOne.value < 99) {
+                        outputOne.value = 'XCV';
+                        let nums = inputOne.value - 95;
+                        for(let i=0; i < nums; i++) {
+                            outputOne.value += 'I';
+                        }
+                        }
+                    }
+                }
             }
-        }
-} 
+    } 
 
